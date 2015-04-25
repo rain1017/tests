@@ -27,7 +27,8 @@
 		"lodash": "~2.4.1",
 		"grunt-cli": "~0.1.13",
 		"glob": "~4.3.2",
-		"q": "~1.1.2"
+		"q": "~1.2.0",
+		"bluebird": "~2.9.24"
 	},
 	"devDependencies": {
 		"should": "~4.5.0",
