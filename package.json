@@ -28,7 +28,11 @@
 		"grunt-cli": "~0.1.13",
 		"glob": "~4.3.2",
 		"q": "~1.2.0",
-		"bluebird": "~2.9.24"
+		"bluebird": "~2.9.24",
+		"mongodb": "~2.0.28",
+		"bluebird": "~2.9.24",
+		"redis": "~0.12.1",
+		"hiredis": "~0.3.0"
 	},
 	"devDependencies": {
 		"should": "~4.5.0",
