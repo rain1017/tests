@@ -16,7 +16,6 @@ Project description here...
 npm install -g grunt-cli
 ```
 
-
 ## License
 (The MIT License)
 
