@@ -85,6 +85,32 @@ describe('test suite', function(){
 
 		console.log(new Date().getTime() - startTick);
 	});
+
+	it.only('hidden class', function(){
+		this.timeout(300000);
+
+		var count = 50000;
+		var jsons = [];
+
+		for(var i=0; i<count; i++){
+			var dct = {k : 1};
+			delete dct.k;
+			for(var j=0; j<200; j++){
+				dct[Math.random()] = 1;
+			}
+			jsons.push(JSON.stringify(dct));
+		}
+
+		var startTime = process.hrtime();
+
+		jsons.forEach(function(json){
+			var obj = JSON.parse(json);
+		});
+
+		var hrtime = process.hrtime(startTime);
+		var seconds = hrtime[0] + hrtime[1] / 1000000000;
+		console.log(count/seconds);
+	});
 });
 
 

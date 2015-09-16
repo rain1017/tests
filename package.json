@@ -30,9 +30,12 @@
 		"q": "~1.2.0",
 		"bluebird": "~2.9.24",
 		"mongodb": "~2.0.28",
+		"mongoose": "4.0.5",
+		"mysql": "~2.7.0",
 		"bluebird": "~2.9.24",
 		"redis": "~0.12.1",
-		"hiredis": "~0.3.0"
+		"hiredis": "~0.3.0",
+		"hashtable": "~1.0.3"
 	},
 	"devDependencies": {
 		"should": "~4.5.0",

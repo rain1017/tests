@@ -19,7 +19,7 @@ describe('mongodb', function(){
 		this.conn.close(cb);
 	});
 
-	it.only('update', function(done){
+	it('update', function(done){
 		this.timeout(100000);
 		var coll = this.conn.collection('test');
 		var count = 100000;

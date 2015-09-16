@@ -70,7 +70,7 @@ describe('bluebird test', function(){
 		});
 	});
 
-	it.only('callback', function(cb){
+	it('callback', function(cb){
 		var count = 100000;
 		var start = Date.now();
 		var inc = function(i, cb){
