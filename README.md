@@ -5,7 +5,6 @@
 
 Project description here...
 
-
 ## Prerequisites
 
 * Node.js
